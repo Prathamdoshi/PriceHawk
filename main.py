@@ -31,7 +31,6 @@ price_float = float(price_str.split("$")[1])
 if price_float < BUDGET:
 
     my_email = "pratham.doshi95@gmail.com"
-    my_password = "xfqfetfzzqkagqrn"
     to_email = "praths.doshi@gmail.com"
 
     email_context = f"Subject: Amazon Item Lower Price\n\n Hi There! Your Amazon Item is in your Budget today. Please make the purchase:\n\n{AMAZON_URL}"
